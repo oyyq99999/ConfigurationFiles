@@ -28,7 +28,7 @@ hi Title		  cterm=bold  ctermfg=blue
 hi Visual		  ctermfg=blue ctermbg=white
 hi WarningMsg	  cterm=bold  ctermfg=darkred
 hi Cursor		  cterm=reverse
-hi CursorLine	  cterm=underline
+hi CursorLine	  cterm=NONE
 hi CursorColumn	  cterm=underline
 hi MatchParen	  ctermfg=yellow ctermbg=red
 hi TabLine		  cterm=bold ctermfg=lightblue ctermbg=white

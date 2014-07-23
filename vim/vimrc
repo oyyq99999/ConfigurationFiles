@@ -18,6 +18,7 @@ set ruler                   " 打开状态栏标尺
 set shiftwidth=4            " 设定 << 和 >> 命令移动时的宽度为 4
 set softtabstop=4           " 使得按退格键时可以一次删掉 4 个空格
 set tabstop=4               " 设定 tab 长度为 4
+set expandtab               " 设定把tab扩展成空格
 set nobackup                " 覆盖文件时不备份
 set noswapfile              " 不生成交换文件
 set modeline				" 使用模式行
