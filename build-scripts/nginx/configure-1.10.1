@@ -1,0 +1,20 @@
+./configure \
+    --prefix=/usr/local/nginx-1.10.1 \
+    --sbin-path=/usr/local/sbin/nginx \
+    --conf-path=/data/conf/nginx/nginx.conf \
+    --error-log-path=/data/log/nginx/error.log \
+    --http-log-path=/data/log/nginx/access.log \
+    --pid-path=/data/pid/nginx.pid \
+    --user=www \
+    --group=www \
+    --with-threads \
+    --with-file-aio \
+    --with-ipv6 \
+    --with-http_ssl_module \
+    --with-http_realip_module \
+    --with-http_addition_module \
+    --with-http_sub_module \
+    --with-http_gunzip_module \
+    --with-http_gzip_static_module \
+    --with-http_auth_request_module
+

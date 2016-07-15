@@ -1,0 +1,31 @@
+./configure \
+    --prefix=/usr/local/php-7.0.8 \
+    --exec-prefix=/usr/local \
+    --enable-fpm \
+    --with-fpm-user=www \
+    --with-fpm-group=www \
+    --with-fpm-systemd \
+    --with-config-file-path=/data/conf/php \
+    --with-config-file-scan-dir=/data/conf/php/ext \
+    --with-openssl \
+    --with-pcre-regex \
+    --with-zlib \
+    --enable-bcmath \
+    --with-bz2 \
+    --enable-calendar \
+    --with-curl \
+    --enable-exif \
+    --enable-ftp \
+    --with-gd \
+    --with-gettext \
+    --enable-intl \
+    --enable-mbstring \
+    --with-mcrypt \
+    --with-mysqli \
+    --with-pdo-mysql \
+    --with-readline \
+    --enable-sockets \
+    --with-xmlrpc \
+    --enable-zip \
+    --enable-mysqlnd
+
